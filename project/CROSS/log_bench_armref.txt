@@ -1,0 +1,165 @@
+Benchmarking build_armref/bin/CROSS_benchmark_cat_1_RSDP_BALANCED
+fp_vec_by_fp_matrix average cycles: 2999
+restr_vec_by_fp_matrix average cycles: 3770
+gen_seed_tree average cycles: 29466
+seedleaves average cycles: 69
+tree_root average cycles: 31069
+Key generation Cycles average cycles: 8185
+Signature Cycles average cycles: 1106254
+Verification Cycles average cycles: 339809
+Benchmarking build_armref/bin/CROSS_benchmark_cat_1_RSDPG_BALANCED
+fp_vec_by_fp_matrix average cycles: 376
+restr_vec_by_fp_matrix average cycles: 2472
+fz_inf_w_by_fz_matrix average cycles: 552
+gen_seed_tree average cycles: 29794
+seedleaves average cycles: 69
+tree_root average cycles: 30823
+Key generation Cycles average cycles: 5080
+Signature Cycles average cycles: 530199
+Verification Cycles average cycles: 334117
+Benchmarking build_armref/bin/CROSS_benchmark_cat_1_RSDPG_SIG_SIZE
+fp_vec_by_fp_matrix average cycles: 374
+restr_vec_by_fp_matrix average cycles: 2481
+fz_inf_w_by_fz_matrix average cycles: 554
+gen_seed_tree average cycles: 59470
+seedleaves average cycles: 115
+tree_root average cycles: 62119
+Key generation Cycles average cycles: 5092
+Signature Cycles average cycles: 1059206
+Verification Cycles average cycles: 658831
+Benchmarking build_armref/bin/CROSS_benchmark_cat_1_RSDPG_SPEED
+fp_vec_by_fp_matrix average cycles: 378
+restr_vec_by_fp_matrix average cycles: 2475
+fz_inf_w_by_fz_matrix average cycles: 557
+seedleaves average cycles: 1972
+tree_root average cycles: 4085
+Key generation Cycles average cycles: 5080
+Signature Cycles average cycles: 279146
+Verification Cycles average cycles: 187896
+Benchmarking build_armref/bin/CROSS_benchmark_cat_1_RSDP_SIG_SIZE
+fp_vec_by_fp_matrix average cycles: 2994
+restr_vec_by_fp_matrix average cycles: 3764
+gen_seed_tree average cycles: 59870
+seedleaves average cycles: 111
+tree_root average cycles: 63532
+Key generation Cycles average cycles: 8136
+Signature Cycles average cycles: 2232553
+Verification Cycles average cycles: 539696
+Benchmarking build_armref/bin/CROSS_benchmark_cat_1_RSDP_SPEED
+fp_vec_by_fp_matrix average cycles: 2989
+restr_vec_by_fp_matrix average cycles: 3774
+seedleaves average cycles: 2003
+tree_root average cycles: 4283
+Key generation Cycles average cycles: 8180
+Signature Cycles average cycles: 650303
+Verification Cycles average cycles: 331610
+Benchmarking build_armref/bin/CROSS_benchmark_cat_3_RSDP_BALANCED
+fp_vec_by_fp_matrix average cycles: 6972
+restr_vec_by_fp_matrix average cycles: 8687
+gen_seed_tree average cycles: 50792
+seedleaves average cycles: 131
+tree_root average cycles: 51148
+Key generation Cycles average cycles: 18639
+Signature Cycles average cycles: 3395975
+Verification Cycles average cycles: 893741
+Benchmarking build_armref/bin/CROSS_benchmark_cat_3_RSDPG_BALANCED
+fp_vec_by_fp_matrix average cycles: 751
+restr_vec_by_fp_matrix average cycles: 5338
+fz_inf_w_by_fz_matrix average cycles: 1207
+gen_seed_tree average cycles: 35491
+seedleaves average cycles: 91
+tree_root average cycles: 35802
+Key generation Cycles average cycles: 10815
+Signature Cycles average cycles: 946374
+Verification Cycles average cycles: 630044
+Benchmarking build_armref/bin/CROSS_benchmark_cat_3_RSDPG_SIG_SIZE
+fp_vec_by_fp_matrix average cycles: 744
+restr_vec_by_fp_matrix average cycles: 5335
+fz_inf_w_by_fz_matrix average cycles: 1202
+gen_seed_tree average cycles: 67543
+seedleaves average cycles: 175
+tree_root average cycles: 68320
+Key generation Cycles average cycles: 10840
+Signature Cycles average cycles: 1801936
+Verification Cycles average cycles: 1164328
+Benchmarking build_armref/bin/CROSS_benchmark_cat_3_RSDPG_SPEED
+fp_vec_by_fp_matrix average cycles: 757
+restr_vec_by_fp_matrix average cycles: 5337
+fz_inf_w_by_fz_matrix average cycles: 1203
+seedleaves average cycles: 4535
+tree_root average cycles: 9921
+Key generation Cycles average cycles: 10812
+Signature Cycles average cycles: 748129
+Verification Cycles average cycles: 523097
+Benchmarking build_armref/bin/CROSS_benchmark_cat_3_RSDP_SIG_SIZE
+fp_vec_by_fp_matrix average cycles: 6964
+restr_vec_by_fp_matrix average cycles: 8696
+gen_seed_tree average cycles: 76735
+seedleaves average cycles: 198
+tree_root average cycles: 77535
+Key generation Cycles average cycles: 18770
+Signature Cycles average cycles: 5113015
+Verification Cycles average cycles: 1065787
+Benchmarking build_armref/bin/CROSS_benchmark_cat_3_RSDP_SPEED
+fp_vec_by_fp_matrix average cycles: 6959
+restr_vec_by_fp_matrix average cycles: 8696
+seedleaves average cycles: 4914
+tree_root average cycles: 10681
+Key generation Cycles average cycles: 18619
+Signature Cycles average cycles: 2077864
+Verification Cycles average cycles: 1034933
+Benchmarking build_armref/bin/CROSS_benchmark_cat_5_RSDP_BALANCED
+fp_vec_by_fp_matrix average cycles: 10626
+restr_vec_by_fp_matrix average cycles: 13760
+gen_seed_tree average cycles: 72307
+seedleaves average cycles: 151
+tree_root average cycles: 75653
+Key generation Cycles average cycles: 31636
+Signature Cycles average cycles: 6641096
+Verification Cycles average cycles: 1670859
+Benchmarking build_armref/bin/CROSS_benchmark_cat_5_RSDPG_BALANCED
+fp_vec_by_fp_matrix average cycles: 1412
+restr_vec_by_fp_matrix average cycles: 9144
+fz_inf_w_by_fz_matrix average cycles: 2292
+gen_seed_tree average cycles: 51110
+seedleaves average cycles: 115
+tree_root average cycles: 52311
+Key generation Cycles average cycles: 18745
+Signature Cycles average cycles: 2023961
+Verification Cycles average cycles: 1366119
+Benchmarking build_armref/bin/CROSS_benchmark_cat_5_RSDPG_SIG_SIZE
+fp_vec_by_fp_matrix average cycles: 1405
+restr_vec_by_fp_matrix average cycles: 9164
+fz_inf_w_by_fz_matrix average cycles: 2290
+gen_seed_tree average cycles: 92453
+seedleaves average cycles: 204
+tree_root average cycles: 95217
+Key generation Cycles average cycles: 18757
+Signature Cycles average cycles: 3630540
+Verification Cycles average cycles: 2339871
+Benchmarking build_armref/bin/CROSS_benchmark_cat_5_RSDPG_SPEED
+fp_vec_by_fp_matrix average cycles: 1399
+restr_vec_by_fp_matrix average cycles: 9139
+fz_inf_w_by_fz_matrix average cycles: 2295
+seedleaves average cycles: 7943
+tree_root average cycles: 17528
+Key generation Cycles average cycles: 18721
+Signature Cycles average cycles: 1649407
+Verification Cycles average cycles: 1188442
+Benchmarking build_armref/bin/CROSS_benchmark_cat_5_RSDP_SIG_SIZE
+fp_vec_by_fp_matrix average cycles: 10611
+restr_vec_by_fp_matrix average cycles: 13759
+gen_seed_tree average cycles: 117374
+seedleaves average cycles: 260
+tree_root average cycles: 122641
+Key generation Cycles average cycles: 31607
+Signature Cycles average cycles: 10781770
+Verification Cycles average cycles: 2013309
+Benchmarking build_armref/bin/CROSS_benchmark_cat_5_RSDP_SPEED
+fp_vec_by_fp_matrix average cycles: 10641
+restr_vec_by_fp_matrix average cycles: 13780
+seedleaves average cycles: 8488
+tree_root average cycles: 18874
+Key generation Cycles average cycles: 31345
+Signature Cycles average cycles: 4116293
+Verification Cycles average cycles: 2042686

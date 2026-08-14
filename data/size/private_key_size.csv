@@ -1,0 +1,4 @@
+"CROSS-R-SDP\n(fast, balanced and small)", "CROSS-R-SDP(G)\n(fast, balanced and small)", "MAYO-1", "MAYO-2", "MAYO-3", "MAYO-5", "MQOM2-L1-gf2-(short, fast)-3r/5r", "MQOM2-L1-gf256-(short, fast)-3r/5r"
+32, 32, 24, 24, 0, 0, 72, 128
+48, 48, 0, 0, 32, 0, 108, 192
+64, 64, 0, 0, 0, 40, 144, 256

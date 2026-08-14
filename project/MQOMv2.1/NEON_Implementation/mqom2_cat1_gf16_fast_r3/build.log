@@ -1,0 +1,17 @@
+[+] Compiling libhash
+cd sha3 && KECCAK_PLATFORM="neon" make
+make[1]: Entering directory '/home/piexandre/Master_Thesis_Alexandre_Stordeur/project/MQOMv2.1/NEON_Implementation/mqom2_cat1_gf16_fast_r3/sha3'
+cc -O3  -Wall -Wextra -Wpedantic -Wno-unused-function -std=gnu99    -DNO_MISALIGNED_ACCESSES -c -I. -I./neon KeccakHash.c -o KeccakHash.o
+cc -O3  -Wall -Wextra -Wpedantic -Wno-unused-function -std=gnu99    -DNO_MISALIGNED_ACCESSES -c -I. -I./neon KeccakSponge.c -o KeccakSponge.o
+cc -O3  -Wall -Wextra -Wpedantic -Wno-unused-function -std=gnu99    -DNO_MISALIGNED_ACCESSES -c -I. -I./neon KeccakSpongetimes4.c -o KeccakSpongetimes4.o
+cc -O3  -Wall -Wextra -Wpedantic -Wno-unused-function -std=gnu99    -DNO_MISALIGNED_ACCESSES -c -I. -I./neon KeccakHashtimes4.c -o KeccakHashtimes4.o
+cc -O3  -Wall -Wextra -Wpedantic -Wno-unused-function -std=gnu99    -DNO_MISALIGNED_ACCESSES -c neon/KeccakP-1600-armv8a-neon.S -o neon/KeccakP-1600-armv8a-neon.o
+cc -O3  -Wall -Wextra -Wpedantic -Wno-unused-function -std=gnu99    -DNO_MISALIGNED_ACCESSES -c -I. -I./neon neon/KeccakP-1600-times4-armv8a.c -o neon/KeccakP-1600-times4-armv8a.o
+cc -O3  -Wall -Wextra -Wpedantic -Wno-unused-function -std=gnu99    -DNO_MISALIGNED_ACCESSES -c neon/KeccakP-1600-times4-x4-v8a-asm.S -o neon/KeccakP-1600-times4-x4-v8a-asm.o
+ar rcs libhash.a KeccakHash.o KeccakSponge.o KeccakSpongetimes4.o KeccakHashtimes4.o neon/KeccakP-1600-armv8a-neon.o neon/KeccakP-1600-times4-armv8a.o neon/KeccakP-1600-times4-x4-v8a-asm.o
+make[1]: Leaving directory '/home/piexandre/Master_Thesis_Alexandre_Stordeur/project/MQOMv2.1/NEON_Implementation/mqom2_cat1_gf16_fast_r3/sha3'
+cc -g -O3   -Wall -Wextra -DNDEBUG -Wno-array-bounds -Wno-stringop-overflow -Wno-stringop-overread -DRIJNDAEL_NEON -DBENCHMARK_TIME -DUSE_PRG_CACHE -DUSE_PIOP_CACHE -DUSE_XOF_X4 -DUSE_ENC_X8 -march=armv8-a+crypto -DFIELDS_NEON -DRIJNDAEL_NEON  -Isha3  -Isha3/neon  -Irijndael  -Iblc  -Ipiop  -Ifields  -I. -c -o rijndael/rijndael_ref.o rijndael/rijndael_ref.c
+cc -g -O3   -Wall -Wextra -DNDEBUG -Wno-array-bounds -Wno-stringop-overflow -Wno-stringop-overread -DRIJNDAEL_NEON -DBENCHMARK_TIME -DUSE_PRG_CACHE -DUSE_PIOP_CACHE -DUSE_XOF_X4 -DUSE_ENC_X8 -march=armv8-a+crypto -DFIELDS_NEON -DRIJNDAEL_NEON  -Isha3  -Isha3/neon  -Irijndael  -Iblc  -Ipiop  -Ifields  -I. -c -o rijndael/rijndael_table.o rijndael/rijndael_table.c
+cc -g -O3   -Wall -Wextra -DNDEBUG -Wno-array-bounds -Wno-stringop-overflow -Wno-stringop-overread -DRIJNDAEL_NEON -DBENCHMARK_TIME -DUSE_PRG_CACHE -DUSE_PIOP_CACHE -DUSE_XOF_X4 -DUSE_ENC_X8 -march=armv8-a+crypto -DFIELDS_NEON -DRIJNDAEL_NEON  -Isha3  -Isha3/neon  -Irijndael  -Iblc  -Ipiop  -Ifields  -I. -c -o rijndael/rijndael_aes_ni.o rijndael/rijndael_aes_ni.c
+cc -g -O3   -Wall -Wextra -DNDEBUG -Wno-array-bounds -Wno-stringop-overflow -Wno-stringop-overread -DRIJNDAEL_NEON -DBENCHMARK_TIME -DUSE_PRG_CACHE -DUSE_PIOP_CACHE -DUSE_XOF_X4 -DUSE_ENC_X8 -march=armv8-a+crypto -DFIELDS_NEON -DRIJNDAEL_NEON  -Isha3  -Isha3/neon  -Irijndael  -Iblc  -Ipiop  -Ifields  -I. -c -o rijndael/rijndael_ct64.o rijndael/rijndael_ct64.c
+cc -g -O3   -Wall -Wextra -DNDEBUG -Wno-array-bounds -Wno-stringop-overflow -Wno-stringop-overread -DRIJNDAEL_NEON -DBENCHMARK_TIME -DUSE_PRG_CACHE -DUSE_PIOP_CACHE -DUSE_XOF_X4 -DUSE_ENC_X8 -march=armv8-a+crypto -DFIELDS_NEON -DRIJNDAEL_NEON  -Isha3  -Isha3/neon  -Irijndael  -Iblc  -Ipiop  -Ifields  -I. -c -o rijndael/rijndael_neon.o rijndael/rijndael_neon.c
