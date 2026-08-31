@@ -335,10 +335,6 @@ CFLAGS += $(foreach DIR, $(PIOP_INCLUDES), -I$(DIR))
 CFLAGS += $(foreach DIR, $(FIELDS_INCLUDES), -I$(DIR))
 CFLAGS += $(foreach DIR, $(MQOM2_INCLUDES), -I$(DIR))
 
-ifeq ($(ENABLE_CYCLE_MAIN_CONDITION),1)
-  CFLAGS += -DCYCLE_MAIN
-endif
-
 # MQOM Variant selection
 ### Cat 1
 ### Cat 3
